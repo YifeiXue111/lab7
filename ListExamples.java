@@ -42,6 +42,7 @@ class ListExamples {
       result.add(list2.get(index2));
       // change index1 below to index2 to fix test
       index2 += 1;
+      System.out.println("test");
     }
     return result;
   }
